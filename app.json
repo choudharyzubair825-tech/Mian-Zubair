@@ -1,0 +1,78 @@
+{
+  "name": "MIAN-ZUBAIR",
+  "version": "2.4.5",
+  "description": "MIAN, the best WhatsApp Bot",
+  "logo": "https://i.imgur.com/1DkLGVk.jpeg",
+  "keywords": ["whatsapp", "bot", "md"],
+  "repository": "https://github.com/choudharyzubair825-tech/Mian-Zubair.git",
+  "stack": "container",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "env": {
+    "SESSION_ID": {
+      "description": "Enter your mian session id here; must start with KANGO~",
+      "value": "",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "MIAN ZUBAIR",
+      "value": "MIAN-ZUBAIR",
+      "required": false
+    },
+    "OWNER_NUMBER": {
+      "description": "Enter your number here, starting with country code E.g 233xxxxxxxx",
+      "value": "MIAN ZUBAIR",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "MIAN ZUBAIR",
+      "value": "MIAN-ZUBAIR",
+      "required": true
+    },
+    "STICKER_PACK_NAME": {
+      "description": "Sticker pack name",
+      "value": "MIAN",
+      "required": false
+    },
+    "STICKER_AUTHOR_NAME": {
+      "description": "Sticker author name",
+      "value": "Kango",
+      "required": false
+    },
+    "MIAN_API_KEY": {
+      "description": "Enter MIAN API key   here",
+      "value": "",
+      "required": false
+    },
+    "MIAN": {
+      "description": "Enter exactly the same app name you've entered above.",
+      "value": "",
+      "required": false
+    },
+    "TIMEZONE": {
+      "description": "Enter your timezone here. Google or don't edit if you don't know!",
+      "value": "Africa/Accra",
+      "required": false
+    },
+   "GITHUB_TOKEN": {
+  "description": "IMPORTANT: Follow these steps to generate your GitHub token correctly(Bot will not save settings without it!). Go to https://github.com/settings/tokens, select 'Tokens (classic)', then tap 'Generate new token' and select 'Generate new token (classic)'. Enter any note, choose 'No expiration', and under 'Select scopes', tick 'repo'. Scroll down, generate the token, and copy it. Paste it here. If using a single token for multiple bots, change the owner number to avoid settings mixups.",
+  "value": "",
+  "required": false
+}
+},
+    "buildpacks": [
+    {
+      "url": "MIAN/ZUBAIR"
+    },
+    {
+      "url": "https://github.com/choudharyzubair825-tech/Mian-Zubair.git"
+    },
+    {
+      "url": "https://github.com/choudharyzubair825-tech/Mian-Zubair.git"
+    },
+    {
+      "url": "https://github.com/choudharyzubair825-tech/Mian-Zubair.git"
+    }
+  ]
+}
